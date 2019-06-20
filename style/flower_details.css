@@ -1,14 +1,35 @@
-body {
-  font-family : 'Ubuntu', sans-serif;
+html {
+    display: table;
+    margin: auto;
 }
-.header {
+
+body {
+  width: 1220px;
+  font-family : 'Ubuntu', sans-serif;
+  margin: 0 0 0 0 ;
+  vertical-align: middle;
+}
+#header-img{
+  background-image: url("../assets/pl-hero.png");
+  background-size: 1220px 350px;
+  background-repeat: no-repeat;
+}
+
+#holder-img {
+  height: 350px;
+  width:280px;
+  padding: 50px 0 0 20px; 
+ 
+}
+
+.header-nav {
   overflow: hidden;
   
 }
 
-.header a {
+.header-nav a {
   float: left;
-  color: #959ba5;
+  color: #949ea0;
   text-align: center;
   margin-top: 33px;
   margin-right: 61px;
@@ -18,17 +39,17 @@ body {
   
 }
 
-.header a:hover {
+.header-nav a:hover {
   background-color: #ffe5d3;
-  color: #959ba5;
+  color: #949ea0;
 }
 
-.header a.active {
+.header-nav a.active {
   background-color: #ffcfad;
-  color: #959ba5;
+  color: #949ea0;
 }
 
-.header a.name {
+.header-nav a.name {
   margin-right: 20px;
 }
 
@@ -36,13 +57,13 @@ body {
   float: right;
 }
 
-.header img.logo {
+.header-nav img.logo {
   width: 151px;
   height: 27px;
-  margin: 28px 20px;
+  margin: 28px 0px 25px 20px;
 }
 
-.header img.profile {
+.header-nav img.profile {
   width: 40px;
   height: 40px;
   margin-top: 20px;
