@@ -5,12 +5,10 @@ html {
 
 body {
   width: 1220px;
-  font-family : 'Ubuntu', sans-serif;
+  font-family : 'Ubuntu';
   margin: 0 0 0 0 ;
   vertical-align: middle;
 }
-
-
 
 
 #header-img{
@@ -32,6 +30,7 @@ body {
 #header-img img{
   float:left;
 }
+
 .Balloon-Flower {
   width: 234px;
   height: 35px;
@@ -114,6 +113,23 @@ body {
   margin-right: 20px;
 }
 
+.Kingdom-Plantae-Ord {
+  width: 145px;
+  height: 100px;
+  font-family: Ubuntu;
+  font-size: 13px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.92;
+  letter-spacing: normal;
+  text-align: left;
+  color: #949ea0;
+  display: inline-block;
+  padding: 50px 185px 80px 20px; 
+  vertical-align: top;
+}
+
 .Platycodon-grandiflo {
   width: 150px;
   height: 14px;
@@ -130,6 +146,36 @@ body {
   padding: 210px 0 0 350px;
 }
 
+.Platycodon-grandiflo2{
+  width: 750px;
+  height: 200px;
+  display: inline-block;
+  font-family: Ubuntu;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #949ea0;
+}
+.pl-image {
+  width: 280px;
+  height: 280px;
+  object-fit: contain;
+  border-radius: 3px;
+}
+.Rectangle {
+  width: 280px;
+  height: 498px;
+  border-radius: 3px;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05);
+  background-color: white;
+  display: inline-block;
+  padding: 50px 20px 41px 20px;
+}
+
 .Rectangle-2 {
   position: absolute;
   top:272px;
@@ -139,6 +185,12 @@ body {
   border-radius: 20px;
   background-color: rgba(0, 0, 0,0.2);
   text-align: center;
+}
+
+.Rectangle-3 {
+  width: 1180px;
+  height: 1px;
+  background-color: #e8e9ed;
 }
 
 .sightings {
