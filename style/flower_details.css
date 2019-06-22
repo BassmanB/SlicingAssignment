@@ -218,6 +218,12 @@ li a {
   padding: 50px 185px 80px 20px; 
   vertical-align: top;
 }
+.Oval {
+  width: 30px;
+  height: 30px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.1);
+  background-color: var(--white);
+}
 
 .Platycodon-grandiflo {
   width: 150px;
@@ -374,3 +380,4 @@ li a {
     object-fit: contain;
     padding: 180px 700px 0px 38px;
 }
+
