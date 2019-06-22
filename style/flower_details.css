@@ -9,6 +9,9 @@ body {
   margin: 0 0 0 0 ;
   vertical-align: middle;
 }
+section {
+  padding-bottom: 41px;
+}
 
 
 #header-img{
@@ -31,6 +34,44 @@ body {
   float:left;
 }
 
+.Add-New-Sighs {
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 18px 0 18px 0;
+  color:white;
+}
+
+.Avatar {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  position: relative;
+  
+  
+}
+.Back-Image{
+  position:absolute;
+
+}
+.Balcony-Flower {
+  width: 104px;
+  height: 15px;
+  font-family: Ubuntu;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #334144;
+  vertical-align: top;
+  display: inline-block;
+  padding: 4px 0 0 15px;
+
+}
+
 .Balloon-Flower {
   width: 234px;
   height: 35px;
@@ -44,6 +85,7 @@ body {
   padding: 29px 0 0 350px;
 }
 
+
 .base {
   position: absolute;
   top:330px;
@@ -55,15 +97,39 @@ body {
   text-align: center;
   vertical-align: middle;
 }
-
-.Add-New-Sighs {
+.by-Adam-Moore {
+  width: 83px;
+  height: 12px;
   font-family: Ubuntu;
-  font-size: 14px;
-  font-weight: 500;
-  padding: 18px 0 18px 0;
-  color:white;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #949ea0;
+
+}
+.Comments {
+  width: 76px;
+  height: 12px;
+  font-family: Ubuntu;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #949ea0;
+  vertical-align: top;
+  padding-left: 5px;
 }
 
+.Desc-Container{
+  padding: 20px 0 0 0px;
+}
 
 .header-nav {
   overflow: hidden;
@@ -87,6 +153,10 @@ body {
   color: #949ea0;
 }
 
+.Inline {
+  display: inline-block;
+  padding-left: 20px;
+}
 .header-nav a.active {
   background-color: #ffcfad;
   color: #949ea0;
@@ -160,6 +230,35 @@ body {
   text-align: justify;
   color: #949ea0;
 }
+.Platycodon-grandiflo3 {
+  width: 240px;
+  height: 62px;
+  font-family: Ubuntu;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.15;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #949ea0;
+  padding: 15px 0 0 20px;
+}
+
+.pl-icon-comment {
+  width: 16px;
+  height: 15px;
+  object-fit: contain;
+}
+
+.pl-icon-location {
+  width: 10px;
+  height: 13px;
+  object-fit: contain;
+  padding: 6px 0px 0 6px;
+  vertical-align: text-bottom;
+}
+
 .pl-image {
   width: 280px;
   height: 280px;
@@ -167,13 +266,15 @@ body {
   border-radius: 3px;
 }
 .Rectangle {
+
   width: 280px;
-  height: 498px;
+  height: 280px;
   border-radius: 3px;
   box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05);
   background-color: white;
   display: inline-block;
-  padding: 50px 20px 41px 20px;
+  padding: 50px 0px 0px 0px;
+  position: relative;
 }
 
 .Rectangle-2 {
@@ -193,6 +294,24 @@ body {
   background-color: #e8e9ed;
 }
 
+.Rectangle-4 {
+  width: 126px;
+  height: 25px;
+  border-radius: 20px;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05);
+  background-color: white;
+  z-index: 100;
+  position: absolute;
+  margin: 20px 0 0 20px;
+}
+
+.Rectangle-5 {
+  width: 240px;
+  height: 1px;
+  background-color: #e8e9ed;
+  margin: 20px 20px 20px 20px
+}
+
 .sightings {
   font-size: 12px;
   color:white;
@@ -202,6 +321,22 @@ body {
   padding-left: 15px;  
   
 
+}
+.San-Francisco-US {
+  width: 94px;
+  height: 12px;
+  font-family: Ubuntu;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #df9186;
+  padding: 6.5px 0 6.5px 10px;
+  position: absolute;
+  
 }
 
 .star-white {
