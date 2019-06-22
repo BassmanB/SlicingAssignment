@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  width: 1220px;
+  width: 420px;
   font-family : 'Ubuntu';
   margin: 0 0 0 0 ;
   vertical-align: middle;
@@ -29,23 +29,27 @@ li a {
 }
 
 #header-img{
-  background-image: url("../assets/pl-hero.png");
-  background-size: 1220px 350px;
-  background-repeat: no-repeat;
-  width: 1220px;
-  height:400px;
+ 
 
 }
 
 #holder-img {
   position: relative;
   height: 350px;
-  width:280px;
-  padding: 50px 0 0 20px; 
+  width:420px; 
+  display: none;
  
 }
-#header-img img{
-  float:left;
+#header-img{
+  background-image: url("../assets/pl-image-grad.png"),linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(50, 40, 30, 0.3));
+
+  background-size: 420px 350px;
+  background-repeat: no-repeat;
+  width: 420px;
+  height:375px;
+  background-blend-mode: multiply;
+
+
 }
 
 .Add-New-Sighs {
@@ -96,20 +100,19 @@ li a {
   font-stretch: normal;
   text-align: left;
   color: white;
-  padding: 29px 0 0 350px;
+  padding: 0px 0 0 0px;
 }
 
 
 .base {
   position: absolute;
-  top:330px;
-  left: 912px;
-  width: 188px;
-  height: 50px;
+  margin: 25px 0 0 40px;
   border-radius: 3px;
   background-color: #eaa79e;
   text-align: center;
   vertical-align: middle;
+  width: 188px;
+  height: 50px;
 }
 .by-Adam-Moore {
   width: 83px;
@@ -171,7 +174,7 @@ li a {
 .header-right {
   float: right;
   padding-top: 29px;
-  display: inline-block;
+  display: none;
 
 }
 .name{
@@ -188,6 +191,7 @@ li a {
   width: 151px;
   height: 27px;
   margin: 28px 0px 25px 20px;
+  display: inline-block;
 }
 
 .header-nav img.profile {
@@ -197,10 +201,12 @@ li a {
   vertical-align: top;
  
 }
-.icon{
-  display: none;
-}
 
+.icon{
+  display: inline-block;
+  float: right;
+  padding: 34px 29px 0 0;
+}
 
 .Kingdom-Plantae-Ord {
   width: 145px;
@@ -232,12 +238,12 @@ li a {
   letter-spacing: normal;
   text-align: left;
   color: white;
-  padding: 210px 0 0 350px;
+  padding: 0px 0 0 0px;
 }
 
 .Platycodon-grandiflo2{
-  width: 750px;
-  height: 200px;
+  width: 340px;
+  height: 400px;
   display: inline-block;
   font-family: Ubuntu;
   font-size: 13px;
@@ -336,7 +342,7 @@ li a {
   background-color: #e8e9ed;
 }
 .Right-Image{
-  display: inline-block;
+  display: none;
   float:right;
   padding: 19px 20px 0 0;
 }
@@ -372,5 +378,5 @@ li a {
   width: 55px;
     height: 55px;
     object-fit: contain;
-    padding: 180px 700px 0px 38px;
+    padding: 0px 0px 0px 0px;
 }
