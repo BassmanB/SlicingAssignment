@@ -211,6 +211,8 @@ li a {
   height: 40px;
   display: block;
   vertical-align: top;
+
+
  
 }
 .icon{
@@ -361,6 +363,7 @@ li a {
   display: inline-block;
   float:right;
   padding: 19px 20px 0 0;
+  cursor: pointer;
 }
 
 .sightings {

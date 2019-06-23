@@ -1,15 +1,14 @@
 function openDialog() {
 	var dialog = document.getElementById('dialog-window');
+	var flowerDetails = document.getElementById('flower-details');
   	dialog.style.display = 'block';
+  	flowerDetails.style.opacity = 0.3;
 
 }
 
-function closeModal() {
-  modal.style.display = 'none';
-}
-
-function outsideClick(e) {
-  if (e.target == modal) {
-    modal.style.display = 'none';
-  }
+function closeDialog() {
+  var dialog = document.getElementById('dialog-window');
+  var flowerDetails = document.getElementById('flower-details');
+  dialog.style.display = 'none';
+  flowerDetails.style.opacity = 1;
 }
