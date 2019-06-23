@@ -204,6 +204,7 @@ li a {
   width: 151px;
   height: 27px;
   margin: 28px 0px 25px 20px;
+  cursor: pointer;
 }
 
 .header-nav img.profile {
@@ -397,7 +398,10 @@ li a {
   width: 30px;
     height: 30px;
     object-fit: contain;
-    padding: 187px 700px 0px 50px;
+    margin: 187px 700px 0px 50px;
+    cursor: pointer;
+    
+
 }
 
 

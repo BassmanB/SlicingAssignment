@@ -3,9 +3,10 @@
 <head>
 	<title>Flower Details</title>
 	<link rel="stylesheet" media="screen and (min-width: 1000px)" href="style/flower_details.css">
-	<link rel="stylesheet" media="screen and (max-width: 919px)" href="style/flower_details(mobile).css">
+	<link rel="stylesheet" media="screen and (max-width: 1000px)" href="style/flower_details(mobile).css">
 	<link rel="stylesheet" href="style/profile.css">
 	<script type="text/javascript" src="js/flower_details.js"></script>
+
 </head>
 <body>
 <div id="flower-details"> 
@@ -17,10 +18,10 @@
   	<img onclick="javascript:openDialog()" class="profile" src="assets/menu-profile-holder@2x.png">
   </div>
   <div class="header-right">
-    <li><a class="active" href="#home">Flowers</a></li>
-    <li><a href="#contact">Latest Sightings</a></li>
-    <li><a href="#about">Favorites</a></li>
-    <a class="name" href="#profile">Peter Prevc</a>
+    <li><a onclick="javascript:changeActive('1')" id="1">Flowers</a></li>
+    <li><a onclick="javascript:changeActive('2')" id="2" href="#contact">Latest Sightings</a></li>
+    <li><a onclick="javascript:changeActive('3')" id="3" href="#about">Favorites</a></li>
+    <a class="name" onclick="javascript:openDialog()" href="#profile">Peter Prevc</a>
   </div>
   	<div class="icon">
   		<a><img src="assets/mm-hamburger.png"></a>

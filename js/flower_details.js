@@ -12,3 +12,16 @@ function closeDialog() {
   dialog.style.display = 'none';
   flowerDetails.style.opacity = 1;
 }
+
+function changeActive(id){
+
+	
+	var toActive = document.getElementById(id);
+	var removeActive = document.getElementsByClassName("active")
+	
+	if(removeActive.length > 0 ){
+		removeActive[0].classList.toggle('active');
+	}
+	toActive.classList.add("active");
+	
+}
