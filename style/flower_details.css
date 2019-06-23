@@ -28,6 +28,17 @@ li a {
   text-align: center;
 }
 
+#dialog-window {
+  display: none;
+  z-index: 101;
+  top:150px;
+  left:310px;
+  width: 600px;
+  height: 610px;
+  position: absolute;
+  background-color: #fefefe: 
+}
+
 #header-img{
   background-image: url("../assets/pl-hero.png");
   background-size: 1220px 350px;
@@ -310,7 +321,7 @@ li a {
 .Rectangle-2 {
   position: absolute;
   top:272px;
-  left:400px;
+  left:420px;
   width: 103px;
   height: 30px;
   border-radius: 20px;
@@ -385,4 +396,5 @@ li a {
     object-fit: contain;
     padding: 187px 700px 0px 50px;
 }
+
 

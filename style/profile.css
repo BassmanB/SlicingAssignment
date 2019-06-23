@@ -1,9 +1,5 @@
-body{
-  width: 600px;
-  height: 610px;
-}
 
-.base {
+.base2 {
   width: 150px;
   height: 50px;
   border-radius: 3px;
@@ -16,6 +12,11 @@ body{
 .container {
 	margin: 32.5px 0px 0px 111px;
 
+}
+.container1 {
+  background-color: white;
+  width: 600px;
+  height: 610px;
 }
 
 .Create-Account {

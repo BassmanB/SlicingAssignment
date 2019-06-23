@@ -27,7 +27,9 @@ li a {
   color: #949ea0;
   text-align: center;
 }
-
+#dialog-window {
+  display: none;
+}
 #header-img{
  
 
